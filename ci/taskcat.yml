@@ -1,7 +1,7 @@
 ---
 global:
-  owner: owner@company.com
-  qsname: sample-taskcat-project
+  owner: amit.nepal@taskcat.com
+  qsname: testingTaskCat
   regions:
     - ap-northeast-1
     - ap-northeast-2
@@ -15,8 +15,8 @@ global:
     - us-west-2
 tests:
   taskcat-json:
-    parameter_input: debug-input.json
+    parameter_input: test01-input.json
     regions:
       - us-east-1
-    template_file: debug.template
+    template_file: sample.template
 
